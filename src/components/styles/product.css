@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+.card_create{
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    border: 0.1rem solid black;
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.card_image{
+    width: 12rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.card_title{
+    font-size: larger;
+    font-weight: bold;
+    margin: 01rem 0.1rem;
+
+}
+
+.card_body{
+    font-size: 1rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.card_link{
+    background-color: rgb(99 102 241);
+    width: 5rem;
+    margin: auto;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
