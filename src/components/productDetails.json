@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Apple iPhone 14 Pro 256 GB (Deep Purple, 6 GB RAM)",
+        "price":"179,900",
+        "img":"https://www.91-img.com/pictures/144646-v8-apple-iphone-14-pro-mobile-phone-large-1.jpg"
+    },
+    {
+        "name":"Dress",
+        "price":"1500",
+        "img":"https://www.collinsdictionary.com/images/full/dress_31690953_1000.jpg"
+    },
+    {
+        "name":"Watch",
+        "price":"45000",
+        "img":"https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/17040148/2022/2/4/aaf6d239-ebc0-4204-b18b-c7ffe0ba9b3a1643958421795-Noise-ColorFit-Qube-Oxy-Smartwatch---Deep-Wine-7431643958421-1.jpg"
+    },
+    {
+        "name":"Jewellery",
+        "price":"89000",
+        "img":"https://m.media-amazon.com/images/I/81aUa3LrDzL._UY500_.jpg"
+    },
+       { "name":"Shoe",
+        "price":"2000",
+        "img":"https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/d4f53387-63f3-4f96-8871-9fbf39c89f6d/nikecraft-general-purpose-shoe-archive-da6672-700-release-date.jpg"
+    }
+]
