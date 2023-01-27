@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228 228 231);
+    border-radius: 0.5rem;
+    min-height: 3rem;
+    margin: 0.5rem 0.5rem;
+}
+
+.navHeader{
+    font-style: Helvetica, Arial, Sans-Serif;
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}
+
+.navSubHeader{
+   margin: 0.5rem 0.5rem;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   position: absolute;
+   right: 0;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    margin: 0.5rem 0.5rem;
+}
