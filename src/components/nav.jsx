@@ -1,4 +1,5 @@
 import React from "react";
+import Badge from "react-bootstrap/Badge";
 import "./styles/nav.css";
 
 export const Nav = () => {
@@ -6,9 +7,9 @@ export const Nav = () => {
     <div className="nav">
       <div className="navHeader">Shopping Cart</div>
       <div className="navSubHeader">
-        <a className="navLink" href="#">
-          Cart
-        </a>
+        <button className="navLink">
+          Cart <Badge bg="secondary">9</Badge>
+        </button>
       </div>
     </div>
   );

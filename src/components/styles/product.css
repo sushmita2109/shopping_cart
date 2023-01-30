@@ -1,6 +1,9 @@
+
+
 .card{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card_create{
@@ -14,6 +17,7 @@
 
 .card_image{
     width: 12rem;
+    max-height:12rem ;
     margin: 0.5rem 0.5rem;
 }
 
@@ -36,3 +40,4 @@
     border-radius: 0.5rem;
     text-decoration: none;
 }
+

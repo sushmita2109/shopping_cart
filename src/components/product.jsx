@@ -1,32 +1,27 @@
 import React from "react";
 import { Cart } from "./cart";
-import productDetails from "./productDetails.json";
 import Card from "react-bootstrap/Card";
 import "./styles/product.css";
 
 export const Product = (props) => {
-  const { setSelectedData, selectedData } = props;
+  const { productDetails, onAdd } = props;
   return (
     <div className="product">
       <div className="card">
         {productDetails.map((productDetail) => {
           return (
-            <Card className="card_create">
+            <Card key={productDetail.id} className="card_create">
               <Card.Img className="card_image" src={productDetail.img} />
               <Card.Title className="card_title">
                 {productDetail.name}
               </Card.Title>
               <Card.Body className="card_body">{productDetail.price}</Card.Body>
-              <Card.Link
+              <button
+                onClick={() => onAdd(productDetail)}
                 className="card_link"
-                href="#"
-                onClick={() => {
-                  let newArray = selectedData.push(productDetail);
-                  setSelectedData(newArray);
-                }}
               >
                 Add to Cart
-              </Card.Link>
+              </button>
             </Card>
           );
         })}
