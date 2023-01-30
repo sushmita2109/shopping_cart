@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles/cart.css";
 
 export const Cart = (props) => {
   const { selectedData, onAdd, onRemove } = props;
@@ -6,13 +7,15 @@ export const Cart = (props) => {
     console.log(selectedData);
   }
   return (
-    <div>
-      <h2>Cart Items</h2>
-      <div>{selectedData.length == 0 && <div>Cart is empty</div>}</div>
+    <div className="cart">
+      <h2 className="cartHeader">Cart Items</h2>
+      <div className="productDetails">
+        {selectedData.length == 0 && <div>Cart is empty</div>}
+      </div>
       {selectedData.map((item) => (
         <div key={item.id} className="row">
-          <div>{item.name}</div>
-          <div>
+          <div className="itemName">{item.name}</div>
+          <div className="btn">
             <button onClick={() => onAdd(item)} className="add">
               +
             </button>
@@ -20,7 +23,7 @@ export const Cart = (props) => {
               -
             </button>
           </div>
-          <div>
+          <div className="itemPrice">
             {item.qty}X ${item.price}
           </div>
         </div>

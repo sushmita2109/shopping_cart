@@ -1,0 +1,42 @@
+.cart{
+ background-color: rgb(228 228 231);
+ width: 39rem;
+ margin: 0.5rem 0.5rem;
+ border-radius: 0.5rem;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.itemName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0.5rem 0.5rem;
+    
+}
+
+.add{
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    margin:0.5rem 0.5rem;
+}
+
+.remove{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    margin: 0.5rem 0.5rem;
+}
+
+.itemPrice{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    margin: 0.5rem 0.5rem;
+}
