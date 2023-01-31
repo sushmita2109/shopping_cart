@@ -34,7 +34,7 @@ export const HomePage = () => {
   };
   return (
     <div className="header">
-      <Nav />
+      <Nav selectedData={selectedData} />
       <div className="main">
         <Product onAdd={onAdd} productDetails={productDetails} />
         <Cart onRemove={onRemove} onAdd={onAdd} selectedData={selectedData} />
