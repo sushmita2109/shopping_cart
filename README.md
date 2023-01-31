@@ -1,3 +1,20 @@
+# Shopping Cart
+
+In this application we have created a shopping cart.
+
+# Technology Used
+
+HTML
+CSS
+Javascript
+React
+
+# Project
+
+![screencapture-golden-crostata-97d2d8-netlify-app-2023-01-31-13_07_37](https://user-images.githubusercontent.com/46422928/215696160-f2f697e6-04ed-451c-937d-6db5cce9e99d.png)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
